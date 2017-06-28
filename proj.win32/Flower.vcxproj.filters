@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene">
+      <UniqueIdentifier>{ba087078-6cbc-4ba8-9396-bcda3e110655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lib">
+      <UniqueIdentifier>{69dc9e79-ca01-4d96-8d60-7197c0988538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\pch">
+      <UniqueIdentifier>{67e87470-e6a3-4104-adf0-658c4abf3090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\execute">
+      <UniqueIdentifier>{1d42ae70-1569-4a7d-8534-1d5c75ef3e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter1">
+      <UniqueIdentifier>{c53113ec-b7f6-4cd5-b5aa-13c2ac03cb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lib\back">
+      <UniqueIdentifier>{2ae432bc-4712-4e4c-a7b6-10863bc16e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lib\mini">
+      <UniqueIdentifier>{b774b845-0f6d-44f7-9e99-65fd2f1248fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter2">
+      <UniqueIdentifier>{f43a6df3-000e-4dbe-a921-a9bbef8cc8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3">
+      <UniqueIdentifier>{5d843213-03cd-4e7c-8871-7f89e4f48e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter2\scene1">
+      <UniqueIdentifier>{814562f6-e5c4-468e-871e-b75c8dbe40a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter2\scene2">
+      <UniqueIdentifier>{ac7bc422-ef38-415b-9ca3-d4a91601a05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter2\scene3">
+      <UniqueIdentifier>{7fe07431-422c-4986-9a1b-83e737f8c2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter2\scene4">
+      <UniqueIdentifier>{87d3a9b4-4df3-401b-a211-7682e119d9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene1">
+      <UniqueIdentifier>{31dcf971-f5bf-45de-9f56-732e984c28b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene2">
+      <UniqueIdentifier>{43f57092-165b-45ae-ad8d-3a25d66a4091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene3">
+      <UniqueIdentifier>{bac656f9-6e54-4b1e-a850-33c7dc889133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene4">
+      <UniqueIdentifier>{94e47029-db2e-48aa-b962-27c6cd6a334c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene5">
+      <UniqueIdentifier>{75dada46-3d70-4a13-b73c-aa5dd4949397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter3\scene6">
+      <UniqueIdentifier>{4be430ab-47c0-45a5-96a7-89cec5d18b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter1\scene1">
+      <UniqueIdentifier>{3fb5cdd7-fb49-418c-bd81-fe01cfbeac3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter1\scene2">
+      <UniqueIdentifier>{1b2337f9-79f8-4cf2-bae5-49f21aca91f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\chapter1\scene3">
+      <UniqueIdentifier>{41272886-a5db-4b76-82d5-3be6bba0c720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\MainMenu">
+      <UniqueIdentifier>{8a2ad381-fc79-4341-bf24-4121fa7bb7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene\MainMenu\Intro">
+      <UniqueIdentifier>{ac2e6c15-49a6-488e-a054-91be016f437f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes\execute</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pch.cpp">
+      <Filter>Classes\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1.cpp">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGameManager.cpp">
+      <Filter>Classes\lib\back</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MiniGameManager.cpp">
+      <Filter>Classes\lib\mini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameResult.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseMenu.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2.cpp">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3.cpp">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c1_backgame.cpp">
+      <Filter>Classes\scene\chapter2\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c1_minigame.cpp">
+      <Filter>Classes\scene\chapter2\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c2_backgame.cpp">
+      <Filter>Classes\scene\chapter2\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c2_minigame.cpp">
+      <Filter>Classes\scene\chapter2\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c3_backgame.cpp">
+      <Filter>Classes\scene\chapter2\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c3_minigame.cpp">
+      <Filter>Classes\scene\chapter2\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c4_backgame.cpp">
+      <Filter>Classes\scene\chapter2\scene4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_c4_minigame.cpp">
+      <Filter>Classes\scene\chapter2\scene4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c1_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c1_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c2_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c2_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c3_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c3_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c4_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c4_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c5_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c5_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c6_backgame.cpp">
+      <Filter>Classes\scene\chapter3\scene6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter3_c6_minigame.cpp">
+      <Filter>Classes\scene\chapter3\scene6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c1_backgame.cpp">
+      <Filter>Classes\scene\chapter1\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c1_minigame.cpp">
+      <Filter>Classes\scene\chapter1\scene1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c2_backgame.cpp">
+      <Filter>Classes\scene\chapter1\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c2_minigame.cpp">
+      <Filter>Classes\scene\chapter1\scene2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c3_backgame.cpp">
+      <Filter>Classes\scene\chapter1\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_c3_minigame.cpp">
+      <Filter>Classes\scene\chapter1\scene3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>Classes\scene\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NoNext.cpp">
+      <Filter>Classes\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes\execute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pch.h">
+      <Filter>Classes\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1.h">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\inlineFunc.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGame.h">
+      <Filter>Classes\lib\back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGameManager.h">
+      <Filter>Classes\lib\back</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MiniGame.h">
+      <Filter>Classes\lib\mini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MiniGameManager.h">
+      <Filter>Classes\lib\mini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameResult.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseMenu.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2.h">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c1_backgame.h">
+      <Filter>Classes\scene\chapter2\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c1_minigame.h">
+      <Filter>Classes\scene\chapter2\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c2_backgame.h">
+      <Filter>Classes\scene\chapter2\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c2_minigame.h">
+      <Filter>Classes\scene\chapter2\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c3_backgame.h">
+      <Filter>Classes\scene\chapter2\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c3_minigame.h">
+      <Filter>Classes\scene\chapter2\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c4_backgame.h">
+      <Filter>Classes\scene\chapter2\scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_c4_minigame.h">
+      <Filter>Classes\scene\chapter2\scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c1_backgame.h">
+      <Filter>Classes\scene\chapter3\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c1_minigame.h">
+      <Filter>Classes\scene\chapter3\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c2_minigame.h">
+      <Filter>Classes\scene\chapter3\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c2_backgame.h">
+      <Filter>Classes\scene\chapter3\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c3_backgame.h">
+      <Filter>Classes\scene\chapter3\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c3_minigame.h">
+      <Filter>Classes\scene\chapter3\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c4_backgame.h">
+      <Filter>Classes\scene\chapter3\scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c4_minigame.h">
+      <Filter>Classes\scene\chapter3\scene4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c5_backgame.h">
+      <Filter>Classes\scene\chapter3\scene5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c5_minigame.h">
+      <Filter>Classes\scene\chapter3\scene5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c6_backgame.h">
+      <Filter>Classes\scene\chapter3\scene6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_c6_minigame.h">
+      <Filter>Classes\scene\chapter3\scene6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c1_backgame.h">
+      <Filter>Classes\scene\chapter1\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c1_minigame.h">
+      <Filter>Classes\scene\chapter1\scene1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c2_backgame.h">
+      <Filter>Classes\scene\chapter1\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c2_minigame.h">
+      <Filter>Classes\scene\chapter1\scene2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c3_backgame.h">
+      <Filter>Classes\scene\chapter1\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_c3_minigame.h">
+      <Filter>Classes\scene\chapter1\scene3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>Classes\scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_Story.h">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_Story_mini1.h">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_Story_mini1.h">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_Story_mini2.h">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_Story_mini3.h">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_Story_mini4.h">
+      <Filter>Classes\scene\chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini1.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini2.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini3.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini4.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini5.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter3_Story_mini6.h">
+      <Filter>Classes\scene\chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NoNext.h">
+      <Filter>Classes\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Intro.h">
+      <Filter>Classes\scene\MainMenu\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_Story_mini2.h">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_Story_mini3.h">
+      <Filter>Classes\scene\chapter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\Typo_CrayonM.ttf">
+      <Filter>resource</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
