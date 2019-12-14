@@ -9,7 +9,7 @@ Chapter2_c2_backgame::Chapter2_c2_backgame()
 
 Chapter2_c2_backgame::~Chapter2_c2_backgame()
 {
-
+	
 }
 
 bool Chapter2_c2_backgame::init()

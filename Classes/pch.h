@@ -4,6 +4,7 @@
 
 #include "cocos2d.h"
 #include "ui\CocosGUI.h"
+#include "audio/include/SimpleAudioEngine.h"
 #include <vector>
 #include <math.h>
 #include <algorithm>

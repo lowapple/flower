@@ -12,7 +12,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
-		glview = GLView::createWithRect(D_GAME_NAME , cocos2d::Rect(0,0,WIDTH,HEIGHT) , D_WINDOWS_SHOW);
+		glview = GLViewImpl::createWithRect(D_GAME_NAME, cocos2d::Rect(0, 0, WIDTH, HEIGHT), D_WINDOWS_SHOW);
+		// glview = GLView::createWithRect(D_GAME_NAME , cocos2d::Rect(0,0,WIDTH,HEIGHT) , D_WINDOWS_SHOW);
 		director->setOpenGLView(glview);
     }
 	glview->setDesignResolutionSize(WIDTH , HEIGHT , kResolutionShowAll);
